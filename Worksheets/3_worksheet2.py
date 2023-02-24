@@ -1,6 +1,6 @@
-num1 = float(input("Enter Your First Number:"));
-num2 = float(input("Enter Your Second Number:"));
-num3 = float(input("Enter Your Third Number:"));
+num1 = eval(input("Enter Your First Number:"));
+num2 = eval(input("Enter Your Second Number:"));
+num3 = eval(input("Enter Your Third Number:"));
 
 if num1>=num2 and num1>=num3:
     if num1==num2:
