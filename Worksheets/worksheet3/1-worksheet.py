@@ -15,16 +15,31 @@ def area_para(PI,radius):
     print(area)
 
 def area_ret(radius):
-    return PI*radius*radius
+    area = PI*radius*radius
+    return area
 
 def area_ret_para(PI,radius):
-    return PI*radius*radius
+    area = PI*radius*radius
+    return area
 
 
 radius =[1,2,3,4,5,6,7,8,9,10];
 print("Simple function")
 for i in radius:
     simple_area(i);
+
+print("function with arguments")
+for i in radius:
+    area_para(i);
+
+print("function with return type")
+for i in radius:
+    area_ret(i);
+
+print("function with return type and arguments")
+for i in radius:
+    area_ret_para(i);
+
 
 
 
