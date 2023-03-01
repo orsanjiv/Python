@@ -10,4 +10,4 @@ while temp != 0:
 if num == rev:
     print(num, "is a palindrome")
 else:
-    print(num, "is not a palindrome");
+    print(num, "is not a palindrome")
