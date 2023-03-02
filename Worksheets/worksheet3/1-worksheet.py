@@ -32,22 +32,24 @@ rad7 = float(input("Enter Rdius:"))
 rad8 = float(input("Enter Rdius:"))
 rad9 = float(input("Enter Rdius:"))
 rad10 = float(input("Enter Rdius:"))
-radius =[1,2,3,4,5,6,7,8,9,10];
+radius = [rad1,rad2,rad3,rad4,rad5,rad6,rad7,rad8,rad9,rad10]
 print("Simple function")
 for i in radius:
     simple_area(i);
 
 print("function with arguments")
 for i in radius:
-    area_para(i);
+    area_para(PI,i);
 
 print("function with return type")
 for i in radius:
-    area_ret(i);
+    returnVar = area_ret(i);
+    print(returnVar);
 
 print("function with return type and arguments")
 for i in radius:
-    area_ret_para(i);
+    returnVar = area_ret_para(PI,i);
+    print(returnVar);
 
 
 
