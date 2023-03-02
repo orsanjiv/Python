@@ -22,7 +22,16 @@ def area_ret_para(PI,radius):
     area = PI*radius*radius
     return area
 
-
+rad1 = float(input("Enter Rdius:"))
+rad2 = float(input("Enter Rdius:"))
+rad3 = float(input("Enter Rdius:"))
+rad4 = float(input("Enter Rdius:"))
+rad5 = float(input("Enter Rdius:"))
+rad6 = float(input("Enter Rdius:"))
+rad7 = float(input("Enter Rdius:"))
+rad8 = float(input("Enter Rdius:"))
+rad9 = float(input("Enter Rdius:"))
+rad10 = float(input("Enter Rdius:"))
 radius =[1,2,3,4,5,6,7,8,9,10];
 print("Simple function")
 for i in radius:
