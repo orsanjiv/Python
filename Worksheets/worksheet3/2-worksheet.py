@@ -4,5 +4,5 @@ def simp_multi(num):
 
 
 num=eval(input("Enter a number to print table:"))
-print("Table of ",num,"is:")
+print("Table of",num,"is:")
 simp_multi(num);
