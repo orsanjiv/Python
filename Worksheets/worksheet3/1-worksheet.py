@@ -37,16 +37,16 @@ print("Simple function")
 for i in radius:
     simple_area(i);
 
-print("function with arguments")
+print("\nfunction with arguments")
 for i in radius:
     area_para(PI,i);
 
-print("function with return type")
+print("\nfunction with return type")
 for i in radius:
     returnVar = area_ret(i);
     print(returnVar);
 
-print("function with return type and arguments")
+print("\nfunction with return type and arguments")
 for i in radius:
     returnVar = area_ret_para(PI,i);
     print(returnVar);
