@@ -4,5 +4,8 @@ def simp_multi(num):
 
 
 num=eval(input("Enter a number to print table:"))
-print("Table of",num,"is:")
-simp_multi(num);
+if (num>=2 and num<=20):
+    print("Table of",num,"is:")
+    simp_multi(num);
+else:
+    print("Please Enter Number Between 2 to 20");
