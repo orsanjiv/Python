@@ -3,7 +3,7 @@ def simp_multi(num):
         print(num,"*",i,"=",i*num)
 
 def argu_multi(num,i):
-    for i in range(10):
+    for i in range(1,11):
         print(num,"*",i,"=",i*num)
 
 
@@ -46,4 +46,4 @@ if(num>=2 and num<=20):
  print("\nReturn Type With Arguments:")
  print_table_ret(num,i)
 else:
-   print("Please Enter Number between 2 to 20"); 
+   print("Please Enter Number between 2 to 20") 
