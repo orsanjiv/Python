@@ -30,16 +30,20 @@ def print_table_ret(num,i):
      print(num, "x", i+1, "=", table[i])     
 
 
-num=eval(input("Number likh:"));
+   
+num=eval(input("Enter The Number:"));
 i=1;
-print("\nSimple Function:")
-simp_multi(num)
+if(num>=2 and num<=20):   
+ print("\nSimple Function:")
+ simp_multi(num)
 
-print("\nFunction With Arguments:")
-argu_multi(num,i);
+ print("\nFunction With Arguments:")
+ argu_multi(num,i);
 
-print("\nReturn Type:")
-print_table(num) 
+ print("\nReturn Type:")
+ print_table(num) 
 
-print("\nReturn Type With Arguments:")
-print_table_ret(num,i) 
+ print("\nReturn Type With Arguments:")
+ print_table_ret(num,i)
+else:
+   print("Please Enter Number between 2 to 20"); 
