@@ -24,8 +24,8 @@ def generate_table_ret(num):
       table.append(num*i)
     return table
 
-def print_table(num):
-    table = generate_table_ret(num,i)
+def print_table_ret(num,i):
+    table = generate_table_ret(num)
     for i in range(10):
      print(num, "x", i+1, "=", table[i])     
 
@@ -39,4 +39,7 @@ print("\nFunction With Arguments:")
 argu_multi(num,i);
 
 print("\nReturn Type:")
-print_table(num)     
+print_table(num) 
+
+print("\nReturn Type With Arguments:")
+print_table_ret(num,i) 
