@@ -18,14 +18,16 @@ def area_ret():
         areas.append(area);
     return areas
 
+def print_table_ret():
+    table = area_ret()
+    for i in range(10):
+     print("{:.2f}".format(table[i]))
+
 def area_ret_para(PI,radius):
     area = PI*radius*radius
     return area
 
-
-
-returnVar = area_ret();
-print(returnVar);
+print_table_ret()
 
 print("\nRETURN TYPE WITH PARAMETERIZED FUNCTION")
 
@@ -43,4 +45,4 @@ rad10 = float(input("Enter Rdius:"))
 radius = [rad1,rad2,rad3,rad4,rad5,rad6,rad7,rad8,rad9,rad10]
 for i in radius:
     returnVar = area_ret_para(PI,i);
-    print(returnVar);
+    print("{:.2f}".format(returnVar));
