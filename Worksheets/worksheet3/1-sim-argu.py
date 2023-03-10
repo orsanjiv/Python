@@ -16,6 +16,7 @@ def simple_area():
     for i in radius:
         area = PI*i*i;
         print("{:.2f}".format(area))
+        
 # Function With Arguments
 def area_para(PI,radius):
     area = PI*radius*radius;
