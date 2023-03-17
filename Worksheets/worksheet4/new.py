@@ -1,4 +1,4 @@
-s1 = "namaste duniya"
+s1 = "hello"
 # for i in s1:
 #     print(i)
 
@@ -23,4 +23,14 @@ s1 = "namaste duniya"
 # print("namaste" not in s1)
 
 # string comparison
-print("free"=="Free")
+# print("free"=="Free")  
+
+# s1.isalnum()
+# s1.isapha()
+# s1.isdigit()
+# s1.isidentifier()
+# s1.islower()
+# s1.isupper()
+
+print(min(s1));
+print(max(s1));
