@@ -1,0 +1,6 @@
+immutable:its value will not change
+Program to demonstrate the various kind of operations that can be applied to the string
+
+1)Python program to check whether the string is symmerical or palindrome
+2)Python program to find uncommon words from two string
+3)
