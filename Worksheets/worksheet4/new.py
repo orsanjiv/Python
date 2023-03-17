@@ -1,4 +1,4 @@
-s1 = "hello"
+s1 = "namaste duniya"
 # for i in s1:
 #     print(i)
 
@@ -32,5 +32,20 @@ s1 = "hello"
 # s1.islower()
 # s1.isupper()
 
-print(min(s1));
-print(max(s1));
+# print(min(s1));
+# print(max(s1));ṇ
+
+# print(s1.capitalize())
+# print(s1.title())
+# print(s1.upper())
+# print(s1.lower())
+# print(s1.swapcase())
+# print(s1.replace("namaste","hello"))
+
+
+# str2="    hello     "
+# print(str2.lstrip())
+# print(str2.rstrip())
+# print(str2.strip())
+
+
