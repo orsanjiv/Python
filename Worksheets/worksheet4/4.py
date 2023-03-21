@@ -1,12 +1,17 @@
 def symmetric(string):
     n = len(string)
+    if(n%2==0):
+        for i in range(n//2):
+            if string[i] != string[n-1-i]:
+                return False
+        return True
+
+def palindrome(string):
+    n = len(string)
     for i in range(n//2):
         if string[i] != string[n-1-i]:
             return False
     return True
-
-def palindrome(string):
-    return symmetric(string)
 
 
 string = str(input("Enter The String:"))

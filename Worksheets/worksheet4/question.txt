@@ -3,4 +3,4 @@ Program to demonstrate the various kind of operations that can be applied to the
 
 1)Python program to check whether the string is symmerical or palindrome
 2)Python program to find uncommon words from two string
-3)
+3)to add 'ing' at the end of the string(length should be atleast 3).If the given string already ends with 'ing' then add 'ly'.If the length of the string is less 3 then leave it unchanged.
