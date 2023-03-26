@@ -13,7 +13,6 @@ def palindrome(string):
             return False
     return True
 
-
 string = str(input("Enter The String:"))
 if symmetric(string):
     print(string,"is symmetric")
@@ -21,6 +20,4 @@ if symmetric(string):
       print(string, "is a palindrome")
 else:
     print(string, "is not a palindrome and Symmetic")
-
-
 
