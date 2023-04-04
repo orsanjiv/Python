@@ -26,9 +26,24 @@ dict2 = {
     "Section":810,
     "Group":"A"
 }
+dict2.clear();
+print("dict2:",dict2,"is now empty")
 
-del dict2
-print(dict2)
+# merging two dictonary
+dict3 = {
+    "college":"CU",
+    "Branch":"CSE"
+}
+
+dict4 = dict1 | dict3;
+print(dict4);
+
+# find key in a given dictonary
+key_to_search = "UID"
+if key_to_search in dict1.keys():
+    print("key is present");
+else:
+    print("not present");
 
 
 
