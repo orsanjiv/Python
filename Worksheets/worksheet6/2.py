@@ -7,11 +7,12 @@ sorted_values = sorted(values, reverse=True)
 
 top3values = sorted_values[:3]
 
-top_3_keys = []
+top3keys = []
 
 for key, value in dict.items():
  if value in top3values:
-  top_3_keys.append(key)
+  top3keys.append(key)
 
-print("Top 3 keys:", top_3_keys)
+sorted_keys = sorted(top3keys, reverse=True)
+print("Top 3 keys:", sorted_keys)
 print("Top 3 values:", top3values)
