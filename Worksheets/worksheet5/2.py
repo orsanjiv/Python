@@ -1,5 +1,5 @@
 lis = []
-num =int(input("Enter number of elements: ")) 
+num = int(input("Enter number of elements: "))
 for x in range(num):
     a = input(f"Enter {x + 1} element: ")
     lis.append(a)
