@@ -1,4 +1,4 @@
 program to demonstrate creation and accessing of dictonary and apply different kind of operation on them;
-1)write a python program to combine two dictonary by adding values for       common keys.
+1)write a python program to combine two dictonary by adding values for common keys.
 
 2)write a python program to find the higest 3 values of the responding keys in a dictonary.
