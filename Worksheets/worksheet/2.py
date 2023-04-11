@@ -19,6 +19,7 @@ for key, value in d1.items():
  if value in top3values:
   top3keys.append(key)
 
-sorted_keys = sorted(top3keys, reverse=True)
-print("Top 3 keys:", sorted_keys)
+# sorted_keys = sorted(top3keys, reverse=True)
+# print("Top 3 keys:", sorted_keys)
+print("Top 3 keys:", top3keys)
 print("Top 3 values:", top3values)
