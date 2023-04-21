@@ -1,0 +1,6 @@
+tuples function;
+.count();
+.index(); //first occurence ka result show karega.
+
+in; //check is present //example print('s' in f); return boolean value;
+not in;
