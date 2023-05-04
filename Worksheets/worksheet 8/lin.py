@@ -1,8 +1,9 @@
-def linear_search(List,size,Key):
- for i in range(0, size): 
-    if (List[i] == Key):
-      return i 
-    return -1
+def linear_search(List,Key):
+ print(List)
+ for i in range(len(List)): 
+     if (List[i] == Key):
+       return i 
+ return -1
  
 List=[]
 size = int(input("Enter number of elements : ")) 
@@ -11,8 +12,8 @@ for i in range(0, size):
     List.append(element) 
 Key = int(input("Enter Key to search : ")) 
 
-result = linear_search(List, size, Key) 
+result = linear_search(List,Key) 
 if(result == -1):
  print("Element not found") 
 else:
- print(Key," is found at position: ", result)
+ print(Key,"is found at position:", result)
