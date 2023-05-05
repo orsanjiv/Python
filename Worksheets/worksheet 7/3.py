@@ -1,10 +1,10 @@
-def mutiple_tuple(nums):
-    temp = list(nums) 
-    product = 1
-    for x in temp: 
-        product *= x
-    return product
-nums = (4, 3, 2, 2, -1, 18)
-print("Original Tuple: ")
-print(nums)
-print("Product - multiplying all the numbers of the said tuple:", mutiple_tuple(nums))
+def calculate_product(tup): 
+ product = 1
+ for num in tup: 
+  product *= num
+ return product
+ 
+my_tuple = (1, 2, 3, 4, 5)
+
+result = calculate_product(my_tuple) 
+print(result)

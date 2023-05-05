@@ -1,4 +1,6 @@
-tupleString = "(6,7,8,9,10)"
-print("The string tuple is : " + tupleString)
-intTuple = eval(tupleString)
-print("The integer Tuple is : " + str(intTuple))
+my_tuple = ('1', '2', '3', '4', '5')
+
+new_tuple = tuple(map(int, my_tuple))
+
+print("Original Tuple:", my_tuple)
+print("New Tuple:", new_tuple)

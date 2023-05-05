@@ -1,5 +1,7 @@
-def removet(li):
-     li = [num for num in li if num]
-     return li
-li = [(), ('0', '1', '2'), (), ('3', '4', '5', '6')]
-print(removet(li))
+my_list = [(1, 2, 3), (), (4, 5), (6,), (), (), (7, 8, 9)]
+new_list = []
+for tup in my_list:
+ if tup:
+  new_list.append(tup)
+  
+print(new_list)
