@@ -1,3 +1,4 @@
+import os
 # write
 obj1 =  open("demo.txt","w")
 obj1.write("namaste duniya")
@@ -17,4 +18,6 @@ obj1 = open("demo.txt","r")
 z = obj1.read()
 print(z)
 
+# remove using import os
+os.remove("demo2.txt")
 
