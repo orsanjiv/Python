@@ -4,9 +4,12 @@ os.chdir('C:/Users/SANJIV/Documents/GitHub/Python/Worksheets/worksheet11/textFil
 
 text = open("words.txt", "r")
 d = dict()
-for line in text:    
-    line = line.strip()    
-    line = line.lower()    
+for line in text:   
+    # remove the whitespace 
+    line = line.strip()
+    # convert into small letter 
+    line = line.lower()
+    # split the line into words     
     words = line.split(" ")    
     for word in words:        
         if word in d:            
